@@ -1,0 +1,198 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(27deg, );
+}
+
+
+.login-form, .contenedor{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-form h1{
+    text-align: center;
+    color: midnightblue;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="text"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 15px;
+    background-color: #6f42c1;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #f5f5f5;
+}
+
+.btn-login:hover, .btn-login:active{
+    color: #fff;
+    background-color: #61428f;
+    border-color: #61428f;
+}
+.btn-login:focus{
+    box-shadow: 0 0 0 3px rgba(121, 82 , 179,0.25);
+}
+
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: #34D399;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #f5f5f5;
+    margin-top: 20px;
+
+    /*para dar apariencia de un boton*/
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-register:hover, .btn-register:active{
+    color: #fff;
+    background-color: #10B981;
+    border-color: #10B981;
+}
+.btn-register:focus{
+    box-shadow: 0 0 0 3px rgba(121, 82 , 179,0.25);
+}
+
+
+
+
+
+/*FORMULARIO DE REGISTRO*/
+
+
+
+
+body{
+    background-image: url(../../public2/assets/img/emilyz.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+}
+
+.register-form, .contenedor{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.register-form h1{
+    text-align: center;
+    color: midnightblue;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+.register-form input[type="password"],
+.register-form input[type="text"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btn-guardar{
+    width: 100%;
+    padding: 15px;
+    background-color: #6f42c1;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #f5f5f5;
+}
+
+.btn-guardar:hover, .btn-guardar:active{
+    color: #fff;
+    background-color: #61428f;
+    border-color: #61428f;
+}
+.btn-guardar:focus{
+    box-shadow: 0 0 0 3px rgba(121, 82 , 179,0.25);
+}
+
+.btn-cancelar{
+    width: 100%;
+    padding: 15px;
+    background-color: #34D399;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #f5f5f5;
+    margin-top: 20px;
+
+    /*para dar apariencia de un boton*/
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-cancelar:hover, .btn-cancelar:active{
+    color: #fff;
+    background-color: #10B981;
+    border-color: #10B981;
+}
+.btn-cancelar:focus{
+    box-shadow: 0 0 0 3px rgba(121, 82 , 179,0.25);
+}
+
+
+
+.select-css{
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: .5;
+    padding: 1.5em .6em .1em .3em;
+    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.select-css::-ms-expand{
+    display: none;
+}
+
+.select-css:hover{
+    border-color: #888;
+}
+
+.select-css:focus{
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, 7);
+    box-shadow:  0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+
+.select-css option{
+    font-weight: normal;
+}
